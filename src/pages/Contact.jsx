@@ -161,19 +161,20 @@ const Contact = () => {
               <div className="contact-info-item">
                 <div className="contact-info-icon">📍</div>
                 <div className="contact-info-text">
-                  <h3>Address</h3>
-                  <p>123 Pharmaceutical Lane<br />Health District, MED 54321</p>
+                  <h3>Head Office</h3>
+                  <p>Andheri-East, Kurla Road, Mumbai, Maharashtra, 400059</p>
                 </div>
               </div>
               
               <div className="contact-info-item">
-                <div className="contact-info-icon">📞</div>
+                <div className="contact-info-icon">📍</div>
                 <div className="contact-info-text">
-                  <h3>Phone/WhatsApp</h3>
-                  <p><a href="tel:+919912709991">+91 9912 709991</a></p>
+                  <h3>Regional Office</h3>
+                  <p>8-3-231/c/208, 2nd Floor, Sri Krishna Nagar, Yusufguda, Hyderabad, 500045</p>
                 </div>
               </div>
               
+
               <div className="contact-info-item">
                 <div className="contact-info-icon">✉️</div>
                 <div className="contact-info-text">
@@ -186,7 +187,7 @@ const Contact = () => {
                 <div className="contact-info-icon">🕒</div>
                 <div className="contact-info-text">
                   <h3>Business Hours</h3>
-                  <p>Monday - Friday: 9:00 AM - 5:00 PM<br />Saturday - Sunday: Closed</p>
+                  <p>Monday - Friday: 9:00 AM - 5:00 PM, Saturday - Sunday: Closed</p>
                 </div>
               </div>
             </div>

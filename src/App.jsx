@@ -9,6 +9,17 @@ import ProductDetail from './pages/ProductDetail'
 import Contact from './pages/Contact'
 import Logo, { CompactLogo } from './components/Logo'
 
+// ScrollToTop component to handle scrolling to top on route change
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  
+  return null;
+};
+
 function App() {
   const location = useLocation();
   const [currentPage, setCurrentPage] = useState('home');
@@ -32,6 +43,7 @@ function App() {
 
   return (
     <div className="app">
+      <ScrollToTop />
       <Header currentPage={currentPage} />
       <main className="main-content">
         <Routes>

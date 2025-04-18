@@ -56,13 +56,12 @@ const ProductPage = ({ product }) => {
                 <div className="product-image-svg">{ProductImageComponent}</div>
               ) : (
                 <div className="product-image-placeholder">
-                  <span>Image Not Available</span>
+                  <div className="placeholder-content">
+                    <h2><FormattedProductName name={product.name} /></h2>
+                    <p>{product.category}</p>
+                  </div>
                 </div>
               )}
-            </div>
-            <div className="product-name-container">
-              <h1 className="product-name"><FormattedProductName name={product.name} /></h1>
-              <div className="product-category">{product.category}</div>
             </div>
           </div>
           

@@ -73,7 +73,7 @@ const Products = () => {
                     <div className="product-image-svg">{ProductImageComponent}</div>
                   ) : (
                     <div className="product-image-placeholder">
-                      {/* Placeholder background only, no icon */}
+                      {/* Empty placeholder - no content */}
                     </div>
                   )}
                 </div>
