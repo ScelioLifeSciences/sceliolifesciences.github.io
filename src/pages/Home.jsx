@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 import Logo from '../components/Logo';
 import bgImage from '../assets/bgimg12.jpg';
@@ -27,7 +28,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <a href="/products" className="cta-button">Explore Our Products</a>
+              <Link to="/products" className="cta-button">Explore Our Products</Link>
             </div>
           </div>
         </div>
@@ -62,35 +63,35 @@ const Home = () => {
         <div className="container">
           <h2 className="section-title">Our Product Categories</h2>
           <div className="category-grid">
-            <a href="/products?category=Supplements" className="category-card">
+            <Link to="/products?category=Supplements" className="category-card">
               <h3>Supplements</h3>
               <p>Supporting overall health and wellness</p>
-            </a>
+            </Link>
             
-            <a href="/products?category=Vitamins" className="category-card">
+            <Link to="/products?category=Vitamins" className="category-card">
               <h3>Vitamins</h3>
               <p>Essential nutrients for optimal health</p>
-            </a>
+            </Link>
             
-            <a href="/products?category=Anti-inflammatory" className="category-card">
+            <Link to="/products?category=Anti-inflammatory" className="category-card">
               <h3>Anti-inflammatory</h3>
               <p>Reducing inflammation and associated pain</p>
-            </a>
+            </Link>
             
-            <a href="/products?category=Pain Relief" className="category-card">
+            <Link to="/products?category=Pain Relief" className="category-card">
               <h3>Pain Relief</h3>
               <p>Effective solutions for pain management</p>
-            </a>
+            </Link>
             
-            <a href="/products?category=Joint Health" className="category-card">
+            <Link to="/products?category=Joint Health" className="category-card">
               <h3>Joint Health</h3>
               <p>Supporting mobility and joint function</p>
-            </a>
+            </Link>
             
-            <a href="/products?category=Bone Health" className="category-card">
+            <Link to="/products?category=Bone Health" className="category-card">
               <h3>Bone Health</h3>
               <p>Strengthening bones and preventing deterioration</p>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
