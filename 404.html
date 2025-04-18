@@ -12,10 +12,10 @@
     // to the new URL with only a query string and hash fragment.
     
     // Parse the URL
-    var pathSegmentsToKeep = 1; // Change this to match your repository name depth
+    var pathSegmentsToKeep = 0; // Changed to 0 for root deployment
     var l = window.location;
     var segmentCount = 0;
-    var repo = "/sceliolifesciences"; // Your repository name
+    var repo = ""; // Changed to empty string for root deployment
     
     // Redirect to the correct URL
     l.replace(
