@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { getAllProducts, FormattedProductName } from '../data/products.jsx';
 import '../styles/Products.css';
 import { getProductImage } from '../components/ProductImages.jsx';
@@ -9,6 +9,7 @@ const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [productsLoaded, setProductsLoaded] = useState(false);
   const allProducts = getAllProducts();
+  const navigate = useNavigate();
   
   // Get category from URL query parameter
   useEffect(() => {
@@ -36,6 +37,8 @@ const Products = () => {
         setFilteredProducts(allProducts);
       }
     } else {
+      // No category parameter, show all products
+      setSelectedCategory(null);
       setFilteredProducts(allProducts);
     }
     
@@ -43,7 +46,7 @@ const Products = () => {
     setTimeout(() => {
       setProductsLoaded(true);
     }, 100);
-  }, [allProducts]);
+  }, [allProducts, window.location.search]); // Added window.location.search as dependency
 
   return (
     <div className="products-page">
@@ -96,7 +99,18 @@ const Products = () => {
           <div className="container">
             <div className="navigation-buttons">
               <Link to="/" className="home-button"><span className="arrow-left">←</span> Back to Home Page</Link>
-              <Link to="/products" className="back-button">View All Products <span className="arrow-right">→</span></Link>
+              <button 
+                onClick={() => {
+                  // Reset any state if needed
+                  setSelectedCategory(null);
+                  setFilteredProducts(allProducts);
+                  // Navigate to products page without category parameter
+                  navigate('/products');
+                }} 
+                className="back-button"
+              >
+                View All Products <span className="arrow-right">→</span>
+              </button>
             </div>
           </div>
         </div>

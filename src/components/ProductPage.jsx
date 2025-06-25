@@ -46,8 +46,11 @@ const ProductPage = ({ product }) => {
   // Get the product image component
   const ProductImageComponent = getProductImage(product.slug);
 
+  // Create a product-specific class name based on the slug
+  const productSpecificClass = `product-${product.slug}`;
+
   return (
-    <div className="product-page">
+    <div className={`product-page ${productSpecificClass}`}>
       <div className="container">
         <div className="product-content">
           <div className="product-image-section">
@@ -77,7 +80,11 @@ const ProductPage = ({ product }) => {
                 {Array.isArray(product.composition) ? (
                   <ul className="composition-list">
                     {product.composition.map((item, index) => (
-                      <li key={index}><FormattedPercentage text={item} /></li>
+                      <li key={index}>
+                        <div className="composition-item">
+                          <FormattedPercentage text={item} />
+                        </div>
+                      </li>
                     ))}
                   </ul>
                 ) : (

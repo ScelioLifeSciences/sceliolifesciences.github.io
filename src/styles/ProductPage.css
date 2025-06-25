@@ -113,13 +113,31 @@
 .composition-list {
   font-family: 'Courier New', monospace;
   line-height: 1.6;
-  padding-left: 1.5rem;
+  padding-left: 0;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style-type: none;
 }
+
+/* No special grid layout needed for any product now */
 
 .composition-list li {
   margin-bottom: 0.5rem;
+}
+
+.composition-item {
+  background-color: #f0f5ff;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  border-left: 3px solid #0066cc;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .percentage-symbol {
@@ -187,4 +205,8 @@
   .product-details {
     width: 100%;
   }
+}
+
+@media (max-width: 480px) {
+  /* Mobile-specific styles if needed */
 }

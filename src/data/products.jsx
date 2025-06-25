@@ -102,7 +102,7 @@ const products = [
     name: 'SCELIO-Q10',
     category: 'Supplements',
     image: productImagePaths['vitamins'], // Using placeholder image
-    description: 'SCELIO-Q10 is a high-quality coenzyme Q10 supplement designed to support heart health and energy production at the cellular level.',
+    description: 'SCELIO-Q10 is a comprehensive supplement formulated to support energy production, cardiovascular health, and antioxidant defense. It combines L-Carnitine, Coenzyme Q10, Vitamin E, Lycopene, Zinc, Cyanocobalamin, and Folic Acid in a convenient tablet form.',
     composition: [
       'L-Carnitine-500mg', 
       'Co enzyme Q10-100mg', 
@@ -112,10 +112,10 @@ const products = [
       'Cyanocobalamin-2.2mcg', 
       'Folic\u00A0Acid-300mcg Tablets'
     ],
-    indications: 'For supporting cardiovascular health, energy production, and as an antioxidant to protect cells from damage.',
-    dosage: 'Adults: Take one capsule daily with food or as directed by your healthcare provider.',
-    sideEffects: 'Generally well-tolerated. Some people may experience mild digestive discomfort.',
-    contraindications: 'If you are pregnant, nursing, taking medications, or have a medical condition, consult your healthcare provider before use.',
+    indications: 'May be used to support energy levels, heart health, antioxidant protection, and overall well-being.',
+    dosage: 'Adults: Take one tablet daily or as directed by your healthcare provider.',
+    sideEffects: 'Generally well-tolerated at recommended doses. Mild gastrointestinal discomfort may occur in some individuals.',
+    contraindications: 'Individuals with known allergies to any of the ingredients should avoid use. Consult your doctor if you are pregnant, breastfeeding, or have any underlying medical conditions.',
     storage: 'Store in a cool, dry place away from direct sunlight. Keep out of reach of children.'
   },
   {
@@ -124,17 +124,17 @@ const products = [
     name: 'SCELIO-NT',
     category: 'Supplements',
     image: productImagePaths['vitamins'],
-    description: 'SCELIO-NT is a specialized nutritional supplement formulated to support neurological health and cognitive function.',
+    description: 'SCELIO-NT is a combination medication formulated to help manage certain types of nerve pain. It contains Pregabalin (sustained release), Methylcobalamin, and Nortriptyline, working together to alleviate discomfort.',
     composition: [
       'Pregabalin(SR)-75mg', 
       'Methylcobalamin-1500mcg', 
       'Nortriptyline-10mg Tablets'
     ],
-    indications: 'For supporting brain health, cognitive function, and neurological well-being.',
-    dosage: 'Adults: Take one tablet daily with food or as directed by your healthcare provider.',
-    sideEffects: 'Generally well-tolerated when taken as directed.',
-    contraindications: 'Consult your healthcare provider before use if you are pregnant, nursing, or have any medical conditions.',
-    storage: 'Store in a cool, dry place away from direct sunlight.'
+    indications: 'Indicated for the management of neuropathic pain.',
+    dosage: 'Adults: Take one tablet daily or as directed by your healthcare provider. Dosage should be individualized based on patient response and tolerability.',
+    sideEffects: 'Common side effects may include drowsiness, dizziness, dry mouth, blurred vision, and constipation. Other side effects are possible. It is important to consult your doctor for a complete list of potential side effects.',
+    contraindications: 'This medication is contraindicated in individuals with known hypersensitivity to any of its components. It should also be used with caution in patients with certain medical conditions. Consult your doctor before use, especially if you have a history of heart problems, glaucoma, or urinary retention.',
+    storage: 'Store in a cool, dry place away from light and moisture. Keep out of reach of children.'
   },
   {
     id: 3,
@@ -156,7 +156,7 @@ const products = [
     name: 'SCELIO-B7',
     category: 'Vitamins',
     image: productImagePaths['vitamins'],
-    description: 'SCELIO-B7 is a biotin supplement formulated to support healthy hair, skin, and nails.',
+    description: 'SCELIO-B7 is a dietary supplement formulated to support healthy hair, skin, and nails. It contains a blend of Biotin, Green Tea Extract, Pantothenic Acid, Saccharomyces Cerevisiae, and L-cysteine.',
     composition: [
       'Biotin-30mcg', 
       'Green Tea Extract-40mg', 
@@ -164,11 +164,11 @@ const products = [
       'Saccharomyces\u00A0Cerevisiae-100mg', 
       'L-cysteine-60mg Tablets'
     ],
-    indications: 'For supporting hair, skin, and nail health, and assisting in metabolism of fats and carbohydrates.',
-    dosage: 'Adults: Take one tablet daily with water.',
-    sideEffects: 'Generally well-tolerated. May cause mild digestive discomfort in some individuals.',
-    contraindications: 'If you have any medical conditions, consult your healthcare provider before use.',
-    storage: 'Store in a cool, dry place away from direct sunlight.'
+    indications: 'May be used to support healthy hair growth, strengthen nails, and promote healthy skin.',
+    dosage: 'Adults: Take one tablet daily or as directed by your healthcare provider.',
+    sideEffects: 'Generally well-tolerated at recommended doses. Mild gastrointestinal discomfort may occur in some individuals. Allergic reactions to any of the ingredients are possible but rare.',
+    contraindications: 'Individuals with known allergies to any of the ingredients should avoid use. Consult your doctor if you are pregnant, breastfeeding, or have any underlying medical conditions.',
+    storage: 'Store in a cool, dry place away from direct sunlight. Keep out of reach of children.'
   },
   {
     id: 5,
@@ -176,7 +176,7 @@ const products = [
     name: 'SCELIO-9G',
     category: 'Supplements',
     image: productImagePaths['vitamins'],
-    description: 'SCELIO-9G is an advanced nutritional supplement designed to support overall health and vitality.',
+    description: 'SCELIO-9G is a comprehensive blend of Omega 3 Fatty Acids, Green Tea Extract, Ginkgo, Ginseng, Grape Seed Extract, Multivitamins, and Multiminerals, formulated to support overall health and well-being.',
     composition: [
       'Omega 3 Fatty Acids', 
       'Green Tea Extract', 
@@ -185,11 +185,11 @@ const products = [
       'Grape\u00A0Seed\u00A0Extract', 
       'Multivitamins & Multiminerals Softgel Capsules'
     ],
-    indications: 'For general wellness support and nutritional supplementation.',
-    dosage: 'Adults: Take one softgel capsule daily with food or as directed by your healthcare provider.',
-    sideEffects: 'Generally well-tolerated when taken as directed.',
-    contraindications: 'Consult your healthcare provider before use if you have any medical conditions.',
-    storage: 'Store in a cool, dry place away from direct sunlight.'
+    indications: 'May be used to support cardiovascular health, cognitive function, antioxidant defense, energy levels, and overall nutritional balance.',
+    dosage: 'Adults: Take one softgel capsule daily or as directed by your healthcare provider.',
+    sideEffects: 'Generally well-tolerated at recommended doses. Mild gastrointestinal discomfort or allergic reactions to any of the ingredients are possible in some individuals.',
+    contraindications: 'Individuals with known allergies to any of the ingredients should avoid use. Consult your doctor if you are pregnant, breastfeeding, taking blood thinners, or have any underlying medical conditions.',
+    storage: 'Store in a cool, dry place away from direct sunlight. Keep out of reach of children.'
   },
   {
     id: 6,
@@ -197,13 +197,13 @@ const products = [
     name: 'SCELIO-DZ',
     category: 'Anti-inflammatory',
     image: productImagePaths['vitamins'],
-    description: 'SCELIO-DZ is a corticosteroid medication with anti-inflammatory and immunosuppressive properties.',
+    description: 'SCELIO-DZ contains deflazacort, a corticosteroid medication used to treat a variety of conditions involving inflammation and autoimmune responses.',
     composition: ['Deflazacort-6mg Tablets'],
-    indications: 'For reducing inflammation and treating various inflammatory and autoimmune conditions.',
-    dosage: 'Adults: Take as directed by your healthcare provider. Dosage varies based on medical condition.',
-    sideEffects: 'May cause increased appetite, weight gain, mood changes, elevated blood sugar, or other side effects. Consult your doctor about potential side effects.',
-    contraindications: 'Not recommended for patients with systemic fungal infections. Consult your healthcare provider before use if you have any medical conditions.',
-    storage: 'Store in a cool, dry place away from direct sunlight.'
+    indications: 'Indicated for the treatment of inflammatory and autoimmune conditions such as rheumatoid arthritis, asthma, and certain muscular dystrophies. Your doctor will determine the specific condition for which this medication is appropriate.',
+    dosage: 'Dosage will be determined by your healthcare provider based on your specific condition, its severity, and your response to treatment. Follow your doctor\'s instructions precisely.',
+    sideEffects: 'Common side effects may include increased appetite, weight gain, facial rounding, mood changes, and increased risk of infections. Long-term use can lead to more serious side effects. It is crucial to discuss potential side effects with your doctor.',
+    contraindications: 'This medication is contraindicated in individuals with systemic fungal infections and those with known hypersensitivity to deflazacort or any components of the formulation. It should be used with caution in patients with certain medical conditions. Inform your doctor about your complete medical history.',
+    storage: 'Store in a cool, dry place away from light and moisture. Keep out of reach of children.'
   },
   {
     id: 7,
@@ -211,7 +211,7 @@ const products = [
     name: 'LIOTEND',
     category: 'Joint Health',
     image: productImagePaths['pain-relief'],
-    description: 'LIOTEND is a specialized joint health supplement designed to support cartilage health, joint flexibility, and overall joint function.',
+    description: 'LIOTEND is a joint support supplement formulated with a blend of Mucopolysaccharide, Bioactive Collagen Peptide Type I, Sodium Hyaluronate, Chondroitin Sulfate, Vitamin C, Rosehip Extract, and Vitamin D3 to promote joint health and mobility.',
     composition: [
       'Mucopolysaccharide-220mg', 
       'Bioactive Collagen Peptide Type I-40mg', 
@@ -221,11 +221,11 @@ const products = [
       'Rosehip\u00A0Extract-375mg', 
       'Vitamin D3-600 IU Tablets'
     ],
-    indications: 'For supporting joint health, reducing joint discomfort, and improving mobility.',
-    dosage: 'Adults: Take one tablet twice daily with meals or as directed by your healthcare provider.',
-    sideEffects: 'Generally well-tolerated. May cause mild digestive discomfort in some individuals.',
-    contraindications: 'If you have shellfish allergies, are pregnant or nursing, consult your healthcare provider before use.',
-    storage: 'Store at room temperature away from moisture and heat.'
+    indications: 'May be used to support joint health, reduce joint discomfort, improve flexibility, and aid in cartilage maintenance.',
+    dosage: 'Adults: Take one tablet twice daily or as directed by your healthcare provider.',
+    sideEffects: 'Generally well-tolerated at recommended doses. Mild gastrointestinal discomfort may occur in some individuals. Allergic reactions to any of the ingredients are possible but rare.',
+    contraindications: 'Individuals with known allergies to any of the ingredients should avoid use. Consult your doctor if you are pregnant, breastfeeding, or have any underlying medical conditions.',
+    storage: 'Store in a cool, dry place away from direct sunlight. Keep out of reach of children.'
   },
   {
     id: 8,
@@ -233,17 +233,17 @@ const products = [
     name: 'LIOFRAC',
     category: 'Bone Health',
     image: productImagePaths['vitamins'],
-    description: 'LIOFRAC is a specialized supplement designed to support bone health and strength.',
+    description: 'LIOFRAC is a dietary supplement formulated to support bone health. It contains Cissus Quadrangularis, Calcium Citrate, and Vitamin K2-7.',
     composition: [
       'Cissus Quadrangularis-500mg', 
       'Calcium Citrate-500mg', 
       'Vitamin K2-7 45mcg Tablets'
     ],
-    indications: 'For supporting bone density and overall bone health.',
-    dosage: 'Adults: Take one tablet daily with food or as directed by your healthcare provider.',
-    sideEffects: 'Generally well-tolerated when taken as directed.',
-    contraindications: 'Consult your healthcare provider before use if you have any medical conditions.',
-    storage: 'Store in a cool, dry place away from direct sunlight.'
+    indications: 'May be used to support bone strength, bone density, and overall skeletal health.',
+    dosage: 'Adults: Take one tablet twice daily or as directed by your healthcare provider.',
+    sideEffects: 'Generally well-tolerated at recommended doses. Mild gastrointestinal discomfort may occur in some individuals.',
+    contraindications: 'Individuals with known allergies to any of the ingredients should avoid use. Consult your doctor if you are pregnant, breastfeeding, or have any underlying medical conditions, especially those related to blood clotting.',
+    storage: 'Store in a cool, dry place away from direct sunlight. Keep out of reach of children.'
   },
   {
     id: 9,
@@ -251,17 +251,17 @@ const products = [
     name: 'LIOTRYP-AP',
     category: 'Anti-inflammatory',
     image: productImagePaths['pain-relief'],
-    description: 'LIOTRYP-AP is an anti-inflammatory medication designed to reduce inflammation and relieve pain.',
+    description: 'LIOTRYP-AP is a combination medication formulated to help manage pain and inflammation. It contains Trypsin-Chymotrypsin, Aceclofenac, and Paracetamol.',
     composition: [
       'Trypsin-Chymotrypsin 150000 AU', 
       'Aceclofenac-100mg', 
       'Paracetamol-325mg Tablets'
     ],
-    indications: 'For the relief of inflammation and associated pain.',
-    dosage: 'Adults: Take as directed by your healthcare provider.',
-    sideEffects: 'May cause stomach upset or drowsiness in some individuals.',
-    contraindications: 'Do not use if you have certain medical conditions. Consult your doctor before use.',
-    storage: 'Store at room temperature away from moisture and heat.'
+    indications: 'Indicated for the relief of pain and inflammation associated with musculoskeletal conditions, post-traumatic and post-operative pain, and other inflammatory conditions.',
+    dosage: 'Adults: Take one tablet two or three times daily or as directed by your healthcare provider. The dosage may vary depending on the severity of the condition.',
+    sideEffects: 'Common side effects may include gastrointestinal disturbances such as nausea, vomiting, abdominal pain, and diarrhea. Other side effects are possible. It is important to consult your doctor for a complete list of potential side effects.',
+    contraindications: 'This medication is contraindicated in individuals with known hypersensitivity to any of its components, a history of peptic ulcer or gastrointestinal bleeding, severe liver or kidney disease, and in patients with known aspirin or other NSAID-induced asthma, urticaria, or angioedema. Consult your doctor before use, especially if you have any other medical conditions.',
+    storage: 'Store in a cool, dry place away from light and moisture. Keep out of reach of children.'
   },
   {
     id: 10,
@@ -269,13 +269,13 @@ const products = [
     name: 'LIOCET-5',
     category: 'Antihistamine',
     image: productImagePaths['pain-relief'],
-    description: 'LIOCET-5 is an antihistamine medication designed to provide effective relief from allergy symptoms.',
+    description: 'LIOCET-5 contains levocetirizine, an antihistamine used to relieve symptoms of allergies.',
     composition: ['Levocetirizine-5mg Tablets'],
-    indications: 'For the relief of symptoms associated with allergic rhinitis and chronic urticaria.',
-    dosage: 'Adults: Take as directed by your healthcare provider.',
-    sideEffects: 'May cause drowsiness, dry mouth, fatigue, or headache. Less common side effects include dizziness or stomach upset.',
-    contraindications: 'Do not use if you have severe kidney impairment or are hypersensitive to levocetirizine. Consult your doctor before use if you have any medical conditions.',
-    storage: 'Store at room temperature away from moisture and heat.'
+    indications: 'Indicated for the relief of symptoms associated with allergic rhinitis (seasonal and perennial) such as sneezing, runny nose, itchy, watery eyes, and itching of the nose or throat. It is also used to relieve symptoms of chronic idiopathic urticaria (hives and itching).',
+    dosage: 'Adults and children 6 years and older: Take one tablet once daily or as directed by your healthcare provider. The timing of the dose can be flexible but should be consistent each day.',
+    sideEffects: 'Common side effects may include drowsiness, dry mouth, fatigue, and headache. Less common side effects are also possible. Consult your doctor if you experience any persistent or bothersome side effects.',
+    contraindications: 'This medication is contraindicated in individuals with known hypersensitivity to levocetirizine or any of its ingredients, or to hydroxyzine. It is also generally not recommended for use in children under 6 years of age or in patients with severe kidney disease unless specifically directed by a doctor.',
+    storage: 'Store in a cool, dry place away from light and moisture. Keep out of reach of children.'
   },
   {
     id: 11,
@@ -288,11 +288,11 @@ const products = [
       'Aceclofenac-200mg(SR)', 
       'Rabeprazole Sodium-20mg Capsules'
     ],
-    indications: 'For the rapid relief of pain and inflammation with protection against NSAID-induced gastric irritation.',
-    dosage: 'Adults: Take as directed by your healthcare provider.',
+    indications: 'For the rapid relief of pain and inflammation in conditions like osteoarthritis, rheumatoid arthritis, and ankylosing spondylitis, especially with protection against NSAID-induced gastric irritation.',
+    dosage: 'Adults: Take one capsule once or twice daily, preferably after food, or as directed by your healthcare provider. Swallow the capsule whole and do not crush or chew it.',
     sideEffects: 'May cause headache, dizziness, or gastrointestinal effects. The rabeprazole component helps reduce the risk of gastric irritation.',
     contraindications: 'Do not use if you have a history of hypersensitivity to NSAIDs, active peptic ulceration, or severe hepatic or renal impairment. Consult your doctor before use.',
-    storage: 'Store at room temperature away from moisture and heat.'
+    storage: 'Store in a cool, dry place away from light and moisture. Keep out of reach of children.'
   },
   {
     id: 12,
@@ -303,10 +303,10 @@ const products = [
     description: 'LIOGESIC-GEL is a topical pain relief gel designed to provide localized relief from pain and inflammation.',
     composition: ['Diclofenac Diethylamine-1.16%', 'Methyl Salicylate-8%', 'Menthol-2%\u00A0&\u00A0Nano\u00A0Technology'],
     indications: 'For the temporary relief of minor aches and pains of muscles and joints.',
-    dosage: 'Adults: Apply a thin layer to affected area and massage gently. Use 3-4 times daily or as directed.',
-    sideEffects: 'May cause skin irritation in some individuals.',
-    contraindications: 'Do not use on broken or irritated skin. Avoid contact with eyes.',
-    storage: 'Store at room temperature away from direct sunlight.'
+    dosage: 'Adults: Apply a thin layer of the gel to the affected area 2 to 3 times daily or as directed by your healthcare provider.',
+    sideEffects: 'May cause mild skin irritation in some individuals.',
+    contraindications: 'Do not use on broken skin or Open wounds. Avoid contact with eyes.',
+    storage: 'Store in a cool, dry place below 30°C. Keep out of reach of children.'
   }
 ];
 
