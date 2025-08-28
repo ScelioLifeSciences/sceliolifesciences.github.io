@@ -162,7 +162,7 @@ const Contact = () => {
                 <div className="contact-info-icon">📍</div>
                 <div className="contact-info-text">
                   <h3>Head Office</h3>
-                  <p>Andheri-East, Kurla Road, Mumbai, Maharashtra, 400059</p>
+                  <p>Business Plaza Building, A-Wing,Vijay Nagar Colony, J B Nagar, Andheri-East, Kurla Road, Mumbai, Maharashtra, 400059</p>
                 </div>
               </div>
               

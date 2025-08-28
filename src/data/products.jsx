@@ -114,7 +114,6 @@ const products = [
     ],
     indications: 'May be used to support energy levels, heart health, antioxidant protection, and overall well-being.',
     dosage: 'Adults: Take one tablet daily or as directed by your healthcare provider.',
-    sideEffects: 'Generally well-tolerated at recommended doses. Mild gastrointestinal discomfort may occur in some individuals.',
     contraindications: 'Individuals with known allergies to any of the ingredients should avoid use. Consult your doctor if you are pregnant, breastfeeding, or have any underlying medical conditions.',
     storage: 'Store in a cool, dry place away from direct sunlight. Keep out of reach of children.'
   },
@@ -132,7 +131,6 @@ const products = [
     ],
     indications: 'Indicated for the management of neuropathic pain.',
     dosage: 'Adults: Take one tablet daily or as directed by your healthcare provider. Dosage should be individualized based on patient response and tolerability.',
-    sideEffects: 'Common side effects may include drowsiness, dizziness, dry mouth, blurred vision, and constipation. Other side effects are possible. It is important to consult your doctor for a complete list of potential side effects.',
     contraindications: 'This medication is contraindicated in individuals with known hypersensitivity to any of its components. It should also be used with caution in patients with certain medical conditions. Consult your doctor before use, especially if you have a history of heart problems, glaucoma, or urinary retention.',
     storage: 'Store in a cool, dry place away from light and moisture. Keep out of reach of children.'
   },
@@ -146,7 +144,6 @@ const products = [
     composition: ['Cholecalciferol-60000 IU Softgel Capsules'],
     indications: 'For vitamin D deficiency, bone health support, and immune system enhancement.',
     dosage: 'Adults: Take one softgel capsule weekly or as directed by your healthcare provider.',
-    sideEffects: 'Rare at recommended doses. High doses may cause nausea, vomiting, or weakness.',
     contraindications: 'People with certain medical conditions should consult their doctor before use.',
     storage: 'Store at room temperature away from moisture and heat.'
   },
@@ -166,7 +163,6 @@ const products = [
     ],
     indications: 'May be used to support healthy hair growth, strengthen nails, and promote healthy skin.',
     dosage: 'Adults: Take one tablet daily or as directed by your healthcare provider.',
-    sideEffects: 'Generally well-tolerated at recommended doses. Mild gastrointestinal discomfort may occur in some individuals. Allergic reactions to any of the ingredients are possible but rare.',
     contraindications: 'Individuals with known allergies to any of the ingredients should avoid use. Consult your doctor if you are pregnant, breastfeeding, or have any underlying medical conditions.',
     storage: 'Store in a cool, dry place away from direct sunlight. Keep out of reach of children.'
   },
@@ -187,7 +183,6 @@ const products = [
     ],
     indications: 'May be used to support cardiovascular health, cognitive function, antioxidant defense, energy levels, and overall nutritional balance.',
     dosage: 'Adults: Take one softgel capsule daily or as directed by your healthcare provider.',
-    sideEffects: 'Generally well-tolerated at recommended doses. Mild gastrointestinal discomfort or allergic reactions to any of the ingredients are possible in some individuals.',
     contraindications: 'Individuals with known allergies to any of the ingredients should avoid use. Consult your doctor if you are pregnant, breastfeeding, taking blood thinners, or have any underlying medical conditions.',
     storage: 'Store in a cool, dry place away from direct sunlight. Keep out of reach of children.'
   },
@@ -201,7 +196,6 @@ const products = [
     composition: ['Deflazacort-6mg Tablets'],
     indications: 'Indicated for the treatment of inflammatory and autoimmune conditions such as rheumatoid arthritis, asthma, and certain muscular dystrophies. Your doctor will determine the specific condition for which this medication is appropriate.',
     dosage: 'Dosage will be determined by your healthcare provider based on your specific condition, its severity, and your response to treatment. Follow your doctor\'s instructions precisely.',
-    sideEffects: 'Common side effects may include increased appetite, weight gain, facial rounding, mood changes, and increased risk of infections. Long-term use can lead to more serious side effects. It is crucial to discuss potential side effects with your doctor.',
     contraindications: 'This medication is contraindicated in individuals with systemic fungal infections and those with known hypersensitivity to deflazacort or any components of the formulation. It should be used with caution in patients with certain medical conditions. Inform your doctor about your complete medical history.',
     storage: 'Store in a cool, dry place away from light and moisture. Keep out of reach of children.'
   },
@@ -223,7 +217,6 @@ const products = [
     ],
     indications: 'May be used to support joint health, reduce joint discomfort, improve flexibility, and aid in cartilage maintenance.',
     dosage: 'Adults: Take one tablet twice daily or as directed by your healthcare provider.',
-    sideEffects: 'Generally well-tolerated at recommended doses. Mild gastrointestinal discomfort may occur in some individuals. Allergic reactions to any of the ingredients are possible but rare.',
     contraindications: 'Individuals with known allergies to any of the ingredients should avoid use. Consult your doctor if you are pregnant, breastfeeding, or have any underlying medical conditions.',
     storage: 'Store in a cool, dry place away from direct sunlight. Keep out of reach of children.'
   },
@@ -241,7 +234,6 @@ const products = [
     ],
     indications: 'May be used to support bone strength, bone density, and overall skeletal health.',
     dosage: 'Adults: Take one tablet twice daily or as directed by your healthcare provider.',
-    sideEffects: 'Generally well-tolerated at recommended doses. Mild gastrointestinal discomfort may occur in some individuals.',
     contraindications: 'Individuals with known allergies to any of the ingredients should avoid use. Consult your doctor if you are pregnant, breastfeeding, or have any underlying medical conditions, especially those related to blood clotting.',
     storage: 'Store in a cool, dry place away from direct sunlight. Keep out of reach of children.'
   },
@@ -259,7 +251,6 @@ const products = [
     ],
     indications: 'Indicated for the relief of pain and inflammation associated with musculoskeletal conditions, post-traumatic and post-operative pain, and other inflammatory conditions.',
     dosage: 'Adults: Take one tablet two or three times daily or as directed by your healthcare provider. The dosage may vary depending on the severity of the condition.',
-    sideEffects: 'Common side effects may include gastrointestinal disturbances such as nausea, vomiting, abdominal pain, and diarrhea. Other side effects are possible. It is important to consult your doctor for a complete list of potential side effects.',
     contraindications: 'This medication is contraindicated in individuals with known hypersensitivity to any of its components, a history of peptic ulcer or gastrointestinal bleeding, severe liver or kidney disease, and in patients with known aspirin or other NSAID-induced asthma, urticaria, or angioedema. Consult your doctor before use, especially if you have any other medical conditions.',
     storage: 'Store in a cool, dry place away from light and moisture. Keep out of reach of children.'
   },
@@ -273,7 +264,6 @@ const products = [
     composition: ['Levocetirizine-5mg Tablets'],
     indications: 'Indicated for the relief of symptoms associated with allergic rhinitis (seasonal and perennial) such as sneezing, runny nose, itchy, watery eyes, and itching of the nose or throat. It is also used to relieve symptoms of chronic idiopathic urticaria (hives and itching).',
     dosage: 'Adults and children 6 years and older: Take one tablet once daily or as directed by your healthcare provider. The timing of the dose can be flexible but should be consistent each day.',
-    sideEffects: 'Common side effects may include drowsiness, dry mouth, fatigue, and headache. Less common side effects are also possible. Consult your doctor if you experience any persistent or bothersome side effects.',
     contraindications: 'This medication is contraindicated in individuals with known hypersensitivity to levocetirizine or any of its ingredients, or to hydroxyzine. It is also generally not recommended for use in children under 6 years of age or in patients with severe kidney disease unless specifically directed by a doctor.',
     storage: 'Store in a cool, dry place away from light and moisture. Keep out of reach of children.'
   },
@@ -290,7 +280,6 @@ const products = [
     ],
     indications: 'For the rapid relief of pain and inflammation in conditions like osteoarthritis, rheumatoid arthritis, and ankylosing spondylitis, especially with protection against NSAID-induced gastric irritation.',
     dosage: 'Adults: Take one capsule once or twice daily, preferably after food, or as directed by your healthcare provider. Swallow the capsule whole and do not crush or chew it.',
-    sideEffects: 'May cause headache, dizziness, or gastrointestinal effects. The rabeprazole component helps reduce the risk of gastric irritation.',
     contraindications: 'Do not use if you have a history of hypersensitivity to NSAIDs, active peptic ulceration, or severe hepatic or renal impairment. Consult your doctor before use.',
     storage: 'Store in a cool, dry place away from light and moisture. Keep out of reach of children.'
   },
@@ -304,7 +293,6 @@ const products = [
     composition: ['Diclofenac Diethylamine-1.16%', 'Methyl Salicylate-8%', 'Menthol-2%\u00A0&\u00A0Nano\u00A0Technology'],
     indications: 'For the temporary relief of minor aches and pains of muscles and joints.',
     dosage: 'Adults: Apply a thin layer of the gel to the affected area 2 to 3 times daily or as directed by your healthcare provider.',
-    sideEffects: 'May cause mild skin irritation in some individuals.',
     contraindications: 'Do not use on broken skin or Open wounds. Avoid contact with eyes.',
     storage: 'Store in a cool, dry place below 30°C. Keep out of reach of children.'
   }
